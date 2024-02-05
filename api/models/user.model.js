@@ -16,6 +16,10 @@ const userSchema = new mongoose.Schema(
       type: String,
       required: true,
     },
+    profilePicture: {
+      type: String,
+      default: 'https://clipground.com/images/profile-png-5.png'
+    }
   },
   { timestamps: true }
 );
